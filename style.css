@@ -132,20 +132,24 @@ p{
 /* start  experiences */
 #experiences{
     background-color:rgb(255, 255, 255) ;
-    display: flex;
+    /* display: flex; */
+}
+.experience-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    
 }
 .box-width{
-    width: 25%;
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
     padding: 0 5px;
-    text-align: center;
     border-radius: 15px;
     box-shadow: 10px 10px 40px gray;
     box-sizing: border-box;
 }
-#left-box{
+/* #left-box{
     margin-left: 5%;
     float: left;
     
@@ -160,7 +164,7 @@ p{
     margin-right: 5%;
     float: right;
     
-}
+} */
 .exp-color{
     color: black;
 }
