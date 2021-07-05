@@ -6,12 +6,12 @@
 h1{
     font-family: 'Capriola', sans-serif;
     color: rgb(224, 224, 224);
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
 }
 h2{
     font-family: 'Capriola', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color: rgb(255, 255, 255);
 }
 p{
@@ -19,7 +19,7 @@ p{
     font-size: 22px;
     color: rgb(226, 226, 226);
 }
-
+/* start first section */
 .first{
     background-image: url(images/sun-bg.jpeg);
    
@@ -103,6 +103,8 @@ p{
     float: right;
 
 }
+/* end first section */
+/* start front section */
 .front{
     background-color:rgb(1, 131, 131);
    
@@ -126,6 +128,44 @@ p{
     display: flex;
     margin-bottom: px;
 }
+/* end front section */
+/* start  experiences */
+#experiences{
+    background-color:rgb(255, 255, 255) ;
+    display: flex;
+}
+.box-width{
+    width: 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 0 5px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px gray;
+    box-sizing: border-box;
+}
+#left-box{
+    margin-left: 5%;
+    float: left;
+    
+}
+#center-box{
+    width: 30%;
+     float: left;
+     margin-left: 5%;
+    
+}
+#right-box{
+    margin-right: 5%;
+    float: right;
+    
+}
+.exp-color{
+    color: black;
+}
+
+/* end  experiences */
 footer{
     background-image: linear-gradient(rgb(62, 4, 88), purple);
     margin-top: 0;
