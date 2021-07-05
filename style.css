@@ -1,0 +1,174 @@
+.body{
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+    font-family: 'Capriola', sans-serif;
+    color: rgb(224, 224, 224);
+    font-size: 50px;
+    text-align: center;
+}
+h2{
+    font-family: 'Capriola', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+p{
+    font-family: 'Sail', cursive;
+    font-size: 22px;
+    color: rgb(226, 226, 226);
+}
+
+.first{
+    background-image: url(images/sun-bg.jpeg);
+   
+    display: flex;
+}
+/* Style the navbar */
+.topnav {
+    font-family: 'Capriola', sans-serif;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    background:linear-gradient(rgb(102, 2, 102), rgb(221, 38, 245));
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: rgb(255, 251, 251);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .topnav a:hover {
+    background-color: rgb(255, 254, 254);
+    color: black;
+  }
+  
+  /* Active/current link */
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  /* Style the input container */
+  .topnav .search-container {
+    float: right;
+  }
+  
+  /* Style the input field inside the navbar */
+  .topnav input[type=text] {
+    font-family: 'Capriola', sans-serif;
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  /* Style the button inside the input container */
+  .topnav .search-container button {
+    font-family: 'Capriola', sans-serif;
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-left: 3px;
+    background: rgb(252, 252, 252);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: rgb(156, 2, 170);
+    color: rgb(243, 241, 241);
+    font-weight: bold;
+  }
+.top-text{
+    color: rgb(0, 26, 26);
+}
+#tcolor{
+    color: rgb(255, 123, 0);
+}
+.welcome{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 70px;
+    float: left;  
+}
+
+.animals{
+    color: aliceblue;
+     width: 50%;
+     float: left;
+     text-align: center;      
+}
+
+.animals img{
+    width: 90%;
+    float: right;
+
+}
+.front{
+    background-color:rgb(1, 131, 131);
+   
+    display: flex;
+}
+.animal-name{
+    background-color: rgb(1, 131, 131);
+    background:cover;
+    margin:  0;
+    padding: 20px 0;
+}
+#hati{
+    width: 90%;
+    float: left;
+}
+#zebra{
+    width: 90%;
+}
+.bottom{
+    background-color: rgb(1, 131, 131);
+    display: flex;
+    margin-bottom: px;
+}
+footer{
+    background-image: linear-gradient(rgb(62, 4, 88), purple);
+    margin-top: 0;
+    padding: 1px;
+}
+
+footer p a{
+    margin-left: 20px;
+    
+}
+.foot{
+    text-align: center;
+}
+#mahir{
+    color: rgb(235, 235, 235);
+    text-align: center;
+    font-size: 25px;
+}
+.link{
+    
+    text-decoration: none;
+    
+    
+    padding: 5px;
+    transition: .5s;
+}
+.link:hover{
+}
+.link img{
+    width: 30px;
+    height: 30px;
+}
+
+
