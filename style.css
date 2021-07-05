@@ -92,6 +92,7 @@ p{
   }
 .top-text{
     color: rgb(0, 26, 26);
+    padding-top: 40px;
 }
 #tcolor{
     color: rgb(255, 123, 0);
